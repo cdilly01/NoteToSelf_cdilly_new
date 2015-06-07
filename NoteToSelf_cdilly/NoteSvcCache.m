@@ -19,17 +19,18 @@ NSMutableArray *notes = nil;
     }
     return nil;
 }
+
 - (Note *) createNote: (Note *) note {
     [notes addObject: note];
     return note;
 }
+
 - (NSMutableArray *) retrieveAllNotes {
     return notes;
 }
-- (Note *) updateNote: (Note *) note {
-    return note;
-}
+
 - (Note *) deleteNote: (Note *) note {
+    [notes removeObject: note];
     return note;
 }
 
