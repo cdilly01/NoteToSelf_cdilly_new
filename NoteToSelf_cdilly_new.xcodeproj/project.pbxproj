@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		E78FED331B2393CD003AA4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78FED1A1B2393CD003AA4EB /* Main.storyboard */; };
 		E78FED341B2393CD003AA4EB /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED1D1B2393CD003AA4EB /* Note.m */; };
-		E78FED361B2393CD003AA4EB /* NoteSvcArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED221B2393CD003AA4EB /* NoteSvcArchive.m */; };
 		E78FED371B2393CD003AA4EB /* NoteSvcCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED241B2393CD003AA4EB /* NoteSvcCache.m */; };
-		E78FED381B2393CD003AA4EB /* NoteSvcSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED261B2393CD003AA4EB /* NoteSvcSQLite.m */; };
 		E78FED391B2393CD003AA4EB /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED281B2393CD003AA4EB /* NotesViewController.m */; };
 		E78FED3B1B2393CD003AA4EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78FED2B1B2393CD003AA4EB /* Images.xcassets */; };
 		E78FED3D1B2393CD003AA4EB /* MasterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED2E1B2393CD003AA4EB /* MasterAppDelegate.m */; };
@@ -21,8 +19,6 @@
 		E78FED481B23965D003AA4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED471B23965D003AA4EB /* main.m */; };
 		E78FED591B239D10003AA4EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E78FED551B239BE2003AA4EB /* InfoPlist.strings */; };
 		E78FED631B23A145003AA4EB /* NoteToSelf_cdillyTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E78FED621B23A145003AA4EB /* NoteToSelf_cdillyTests-Info.plist */; };
-		E78FED681B23AFE5003AA4EB /* NoteToSelf_cdillyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED5F1B23A086003AA4EB /* NoteToSelf_cdillyTests.m */; };
-		E78FED691B23AFEC003AA4EB /* SQLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED5E1B23A086003AA4EB /* SQLiteTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +36,8 @@
 		E78FED1C1B2393CD003AA4EB /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
 		E78FED1D1B2393CD003AA4EB /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 		E78FED201B2393CD003AA4EB /* NoteSvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSvc.h; sourceTree = "<group>"; };
-		E78FED211B2393CD003AA4EB /* NoteSvcArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSvcArchive.h; sourceTree = "<group>"; };
-		E78FED221B2393CD003AA4EB /* NoteSvcArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteSvcArchive.m; sourceTree = "<group>"; };
 		E78FED231B2393CD003AA4EB /* NoteSvcCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSvcCache.h; sourceTree = "<group>"; };
 		E78FED241B2393CD003AA4EB /* NoteSvcCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteSvcCache.m; sourceTree = "<group>"; };
-		E78FED251B2393CD003AA4EB /* NoteSvcSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSvcSQLite.h; sourceTree = "<group>"; };
-		E78FED261B2393CD003AA4EB /* NoteSvcSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteSvcSQLite.m; sourceTree = "<group>"; };
 		E78FED271B2393CD003AA4EB /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
 		E78FED281B2393CD003AA4EB /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
 		E78FED2B1B2393CD003AA4EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -59,8 +51,6 @@
 		E78FED471B23965D003AA4EB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E78FED491B23967D003AA4EB /* NoteToSelf_cdilly-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoteToSelf_cdilly-Prefix.pch"; sourceTree = "<group>"; };
 		E78FED561B239BE2003AA4EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E78FED5E1B23A086003AA4EB /* SQLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteTests.m; sourceTree = "<group>"; };
-		E78FED5F1B23A086003AA4EB /* NoteToSelf_cdillyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteToSelf_cdillyTests.m; sourceTree = "<group>"; };
 		E78FED611B23A102003AA4EB /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		E78FED621B23A145003AA4EB /* NoteToSelf_cdillyTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NoteToSelf_cdillyTests-Info.plist"; sourceTree = "<group>"; };
 		E78FED661B23A8A0003AA4EB /* NoteToSelf_cdilly_new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteToSelf_cdilly_new.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,10 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				E78FED201B2393CD003AA4EB /* NoteSvc.h */,
-				E78FED261B2393CD003AA4EB /* NoteSvcSQLite.m */,
-				E78FED251B2393CD003AA4EB /* NoteSvcSQLite.h */,
-				E78FED221B2393CD003AA4EB /* NoteSvcArchive.m */,
-				E78FED211B2393CD003AA4EB /* NoteSvcArchive.h */,
 				E78FED241B2393CD003AA4EB /* NoteSvcCache.m */,
 				E78FED231B2393CD003AA4EB /* NoteSvcCache.h */,
 				E78FED1D1B2393CD003AA4EB /* Note.m */,
@@ -160,8 +146,6 @@
 		E78FED5C1B239FED003AA4EB /* NoteToSelfTests_cdilly */ = {
 			isa = PBXGroup;
 			children = (
-				E78FED5E1B23A086003AA4EB /* SQLiteTests.m */,
-				E78FED5F1B23A086003AA4EB /* NoteToSelf_cdillyTests.m */,
 				E78FED5D1B239FED003AA4EB /* SupportingFiles */,
 			);
 			path = NoteToSelfTests_cdilly;
@@ -285,13 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78FED691B23AFEC003AA4EB /* SQLiteTests.m in Sources */,
-				E78FED681B23AFE5003AA4EB /* NoteToSelf_cdillyTests.m in Sources */,
 				E78FED3F1B2393CD003AA4EB /* MasterMasterViewController.m in Sources */,
 				E78FED371B2393CD003AA4EB /* NoteSvcCache.m in Sources */,
-				E78FED361B2393CD003AA4EB /* NoteSvcArchive.m in Sources */,
 				E78FED391B2393CD003AA4EB /* NotesViewController.m in Sources */,
-				E78FED381B2393CD003AA4EB /* NoteSvcSQLite.m in Sources */,
 				E78FED341B2393CD003AA4EB /* Note.m in Sources */,
 				E78FED3D1B2393CD003AA4EB /* MasterAppDelegate.m in Sources */,
 				E78FED481B23965D003AA4EB /* main.m in Sources */,
@@ -486,6 +466,7 @@
 				E78FECB51B238178003AA4EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E78FECB61B238178003AA4EB /* Build configuration list for PBXNativeTarget "NoteToSelf_cdilly_newTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +475,7 @@
 				E78FECB81B238178003AA4EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

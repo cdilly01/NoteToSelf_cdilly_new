@@ -9,8 +9,6 @@
 #import "NotesViewController.h"
 #import "Note.h"
 #import "NoteSvcCache.h"
-#import "NoteSvcArchive.h"
-#import "NoteSvcSQLite.h"
 
 @interface NotesViewController ()
 
@@ -19,8 +17,6 @@
 @implementation NotesViewController
 
 NoteSvcCache *noteSvcCache = nil;
-NoteSvcArchive *noteSvcArchive = nil;
-NoteSvcSQLite *noteSvcLite = nil;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,8 +32,6 @@ NoteSvcSQLite *noteSvcLite = nil;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     noteSvcCache = [[NoteSvcCache alloc] init];
-    noteSvcArchive = [[NoteSvcArchive alloc] init];
-    noteSvcLite = [[NoteSvcSQLite alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
@@ -74,7 +68,7 @@ NoteSvcSQLite *noteSvcLite = nil;
 }
 
 // Save Note
-- (IBAction)saveNote:(id)sender {
+- (IBAction)addNote:(id)sender {
     NSLog(@"saveNote: entering");
     
     [self.view endEditing:YES];
