@@ -69,7 +69,7 @@ NoteSvcSQLite *noteSvcLite = nil;
     
     cell.textLabel.text = [note description];
     cell.textLabel.font = [UIFont systemFontOfSize:14];
-    
+     
     return cell;
 }
 
