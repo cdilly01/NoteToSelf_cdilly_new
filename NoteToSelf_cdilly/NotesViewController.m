@@ -80,7 +80,7 @@ NoteSvcSQLite *noteSvcLite = nil;
     [self.view endEditing:YES];
     
     Note *note = [[Note alloc] init];
-    note.noteText = _noteText.text;
+    note.noteText = _noteInputText.text;
     [noteSvcCache createNote:note];
     
     [self.tableView reloadData];
@@ -92,4 +92,5 @@ NoteSvcSQLite *noteSvcLite = nil;
     
     [self.view endEditing:YES];
 }
+
 @end

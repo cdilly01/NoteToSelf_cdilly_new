@@ -10,10 +10,13 @@
 
 @interface NotesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-@property (weak, nonatomic) IBOutlet UITextField *noteText;
+@property (weak, nonatomic) IBOutlet UITextField *noteInputText;
 
-- (IBAction)saveContact:(id)sender;
+- (IBAction)addNote:(id)sender;
 
-- (IBAction)updateContact:(id)sender;
+- (IBAction)updateNote:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 
 @end

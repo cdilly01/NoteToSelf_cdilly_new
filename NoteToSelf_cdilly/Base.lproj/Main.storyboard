@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="-1" y="64"/>
         </scene>
-        <!--Contacts View Controller-->
+        <!--Notes View Controller-->
         <scene sceneID="UcF-5X-W27">
             <objects>
-                <viewController id="oWu-9D-apE" customClass="ContactsViewController" sceneMemberID="viewController">
+                <viewController id="oWu-9D-apE" customClass="NotesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lF0-2m-h5d"/>
                         <viewControllerLayoutGuide type="bottom" id="fNy-tE-VXH"/>
@@ -31,17 +31,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfq-NF-kTg">
-                                <rect key="frame" x="158" y="234" width="103" height="53"/>
-                                <color key="backgroundColor" red="0.729411780834198" green="0.32549020648002625" blue="0.090196080505847931" alpha="1" colorSpace="deviceRGB"/>
-                                <state key="normal" title="Update">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="updateContact:" destination="oWu-9D-apE" eventType="touchUpInside" id="nfM-G5-S9g"/>
-                                </connections>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="10" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="dIe-uu-Jkh">
                                 <rect key="frame" x="10" y="327" width="300" height="232"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -56,25 +45,40 @@
                                 <color key="textColor" red="0.15294118225574493" green="0.67058825492858887" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDg-Uk-4ZA">
-                                <rect key="frame" x="57" y="234" width="103" height="53"/>
-                                <color key="backgroundColor" red="0.62352943420410156" green="0.92549026012420654" blue="0.45490199327468872" alpha="1" colorSpace="deviceRGB"/>
-                                <state key="normal" title="Add">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O6A-ox-TO3">
                                 <rect key="frame" x="69" y="121" width="183" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toa-tk-5a7">
+                                <rect key="frame" x="72" y="220" width="84" height="30"/>
+                                <color key="backgroundColor" red="0.40000003576278687" green="1" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" red="0.011764707043766975" green="0.0078431377187371254" blue="0.0039215688593685627" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNote:" destination="oWu-9D-apE" eventType="touchUpInside" id="AoZ-nx-XIp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ExU-J9-3uC">
+                                <rect key="frame" x="164" y="220" width="84" height="30"/>
+                                <color key="backgroundColor" red="0.94117653369903564" green="0.12549020349979401" blue="0.054901964962482452" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="Update">
+                                    <color key="titleColor" red="0.039215687662363052" green="0.062745101749897003" blue="0.08235294371843338" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="updateNote:" destination="oWu-9D-apE" eventType="touchUpInside" id="4KM-1S-wWB"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.011764707043766975" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="yof-jN-llG"/>
                     <connections>
-                        <outlet property="name" destination="O6A-ox-TO3" id="84L-3g-FPG"/>
+                        <outlet property="noteInputText" destination="O6A-ox-TO3" id="4pW-lj-UKM"/>
+                        <outlet property="tableView" destination="dIe-uu-Jkh" id="nXE-Vo-Cjr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0az-UP-84i" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E78FEC931B238178003AA4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FEC921B238178003AA4EB /* main.m */; };
-		E78FEC961B238178003AA4EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FEC951B238178003AA4EB /* AppDelegate.m */; };
-		E78FEC991B238178003AA4EB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FEC981B238178003AA4EB /* MasterViewController.m */; };
-		E78FEC9C1B238178003AA4EB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FEC9B1B238178003AA4EB /* DetailViewController.m */; };
-		E78FEC9F1B238178003AA4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78FEC9D1B238178003AA4EB /* Main.storyboard */; };
-		E78FECA11B238178003AA4EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78FECA01B238178003AA4EB /* Images.xcassets */; };
-		E78FECA41B238178003AA4EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78FECA21B238178003AA4EB /* LaunchScreen.xib */; };
-		E78FECB01B238178003AA4EB /* NoteToSelf_cdilly_newTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FECAF1B238178003AA4EB /* NoteToSelf_cdilly_newTests.m */; };
+		E78FED331B2393CD003AA4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78FED1A1B2393CD003AA4EB /* Main.storyboard */; };
+		E78FED341B2393CD003AA4EB /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED1D1B2393CD003AA4EB /* Note.m */; };
+		E78FED361B2393CD003AA4EB /* NoteSvcArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED221B2393CD003AA4EB /* NoteSvcArchive.m */; };
+		E78FED371B2393CD003AA4EB /* NoteSvcCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED241B2393CD003AA4EB /* NoteSvcCache.m */; };
+		E78FED381B2393CD003AA4EB /* NoteSvcSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED261B2393CD003AA4EB /* NoteSvcSQLite.m */; };
+		E78FED391B2393CD003AA4EB /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED281B2393CD003AA4EB /* NotesViewController.m */; };
+		E78FED3B1B2393CD003AA4EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78FED2B1B2393CD003AA4EB /* Images.xcassets */; };
+		E78FED3D1B2393CD003AA4EB /* MasterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED2E1B2393CD003AA4EB /* MasterAppDelegate.m */; };
+		E78FED3E1B2393CD003AA4EB /* MasterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED301B2393CD003AA4EB /* MasterDetailViewController.m */; };
+		E78FED3F1B2393CD003AA4EB /* MasterMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED321B2393CD003AA4EB /* MasterMasterViewController.m */; };
+		E78FED461B23962F003AA4EB /* NoteToSelf_cdilly-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E78FED451B23962F003AA4EB /* NoteToSelf_cdilly-Info.plist */; };
+		E78FED481B23965D003AA4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED471B23965D003AA4EB /* main.m */; };
+		E78FED591B239D10003AA4EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E78FED551B239BE2003AA4EB /* InfoPlist.strings */; };
+		E78FED631B23A145003AA4EB /* NoteToSelf_cdillyTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E78FED621B23A145003AA4EB /* NoteToSelf_cdillyTests-Info.plist */; };
+		E78FED681B23AFE5003AA4EB /* NoteToSelf_cdillyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED5F1B23A086003AA4EB /* NoteToSelf_cdillyTests.m */; };
+		E78FED691B23AFEC003AA4EB /* SQLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FED5E1B23A086003AA4EB /* SQLiteTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +36,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E78FEC8D1B238178003AA4EB /* NoteToSelf_cdilly_new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteToSelf_cdilly_new.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E78FEC911B238178003AA4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E78FEC921B238178003AA4EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E78FEC941B238178003AA4EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E78FEC951B238178003AA4EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E78FEC971B238178003AA4EB /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		E78FEC981B238178003AA4EB /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		E78FEC9A1B238178003AA4EB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		E78FEC9B1B238178003AA4EB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		E78FEC9E1B238178003AA4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E78FECA01B238178003AA4EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E78FECA31B238178003AA4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E78FECA91B238178003AA4EB /* NoteToSelf_cdilly_newTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteToSelf_cdilly_newTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E78FECAE1B238178003AA4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E78FECAF1B238178003AA4EB /* NoteToSelf_cdilly_newTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteToSelf_cdilly_newTests.m; sourceTree = "<group>"; };
+		E78FED1B1B2393CD003AA4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E78FED1C1B2393CD003AA4EB /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		E78FED1D1B2393CD003AA4EB /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		E78FED201B2393CD003AA4EB /* NoteSvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSvc.h; sourceTree = "<group>"; };
+		E78FED211B2393CD003AA4EB /* NoteSvcArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSvcArchive.h; sourceTree = "<group>"; };
+		E78FED221B2393CD003AA4EB /* NoteSvcArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteSvcArchive.m; sourceTree = "<group>"; };
+		E78FED231B2393CD003AA4EB /* NoteSvcCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSvcCache.h; sourceTree = "<group>"; };
+		E78FED241B2393CD003AA4EB /* NoteSvcCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteSvcCache.m; sourceTree = "<group>"; };
+		E78FED251B2393CD003AA4EB /* NoteSvcSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSvcSQLite.h; sourceTree = "<group>"; };
+		E78FED261B2393CD003AA4EB /* NoteSvcSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteSvcSQLite.m; sourceTree = "<group>"; };
+		E78FED271B2393CD003AA4EB /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
+		E78FED281B2393CD003AA4EB /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
+		E78FED2B1B2393CD003AA4EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E78FED2D1B2393CD003AA4EB /* MasterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterAppDelegate.h; sourceTree = "<group>"; };
+		E78FED2E1B2393CD003AA4EB /* MasterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterAppDelegate.m; sourceTree = "<group>"; };
+		E78FED2F1B2393CD003AA4EB /* MasterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterDetailViewController.h; sourceTree = "<group>"; };
+		E78FED301B2393CD003AA4EB /* MasterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterDetailViewController.m; sourceTree = "<group>"; };
+		E78FED311B2393CD003AA4EB /* MasterMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterMasterViewController.h; sourceTree = "<group>"; };
+		E78FED321B2393CD003AA4EB /* MasterMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterMasterViewController.m; sourceTree = "<group>"; };
+		E78FED451B23962F003AA4EB /* NoteToSelf_cdilly-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NoteToSelf_cdilly-Info.plist"; sourceTree = "<group>"; };
+		E78FED471B23965D003AA4EB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E78FED491B23967D003AA4EB /* NoteToSelf_cdilly-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoteToSelf_cdilly-Prefix.pch"; sourceTree = "<group>"; };
+		E78FED561B239BE2003AA4EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E78FED5E1B23A086003AA4EB /* SQLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteTests.m; sourceTree = "<group>"; };
+		E78FED5F1B23A086003AA4EB /* NoteToSelf_cdillyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteToSelf_cdillyTests.m; sourceTree = "<group>"; };
+		E78FED611B23A102003AA4EB /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		E78FED621B23A145003AA4EB /* NoteToSelf_cdillyTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NoteToSelf_cdillyTests-Info.plist"; sourceTree = "<group>"; };
+		E78FED661B23A8A0003AA4EB /* NoteToSelf_cdilly_new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteToSelf_cdilly_new.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78FED671B23AA42003AA4EB /* NoteToSelfTests_cdilly.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteToSelfTests_cdilly.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,62 +88,92 @@
 		E78FEC841B238178003AA4EB = {
 			isa = PBXGroup;
 			children = (
-				E78FEC8F1B238178003AA4EB /* NoteToSelf_cdilly_new */,
-				E78FECAC1B238178003AA4EB /* NoteToSelf_cdilly_newTests */,
-				E78FEC8E1B238178003AA4EB /* Products */,
+				E78FED5C1B239FED003AA4EB /* NoteToSelfTests_cdilly */,
+				E78FED431B239591003AA4EB /* Frameworks */,
+				E78FED441B23959A003AA4EB /* Products */,
+				E78FED191B2393CD003AA4EB /* NoteToSelf_cdilly */,
+				E78FED671B23AA42003AA4EB /* NoteToSelfTests_cdilly.xctest */,
+				E78FED661B23A8A0003AA4EB /* NoteToSelf_cdilly_new.app */,
 			);
 			sourceTree = "<group>";
 		};
-		E78FEC8E1B238178003AA4EB /* Products */ = {
+		E78FED191B2393CD003AA4EB /* NoteToSelf_cdilly */ = {
 			isa = PBXGroup;
 			children = (
-				E78FEC8D1B238178003AA4EB /* NoteToSelf_cdilly_new.app */,
-				E78FECA91B238178003AA4EB /* NoteToSelf_cdilly_newTests.xctest */,
+				E78FED411B239472003AA4EB /* Supporting Files */,
+				E78FED401B239408003AA4EB /* Model */,
+				E78FED1A1B2393CD003AA4EB /* Main.storyboard */,
+				E78FED271B2393CD003AA4EB /* NotesViewController.h */,
+				E78FED281B2393CD003AA4EB /* NotesViewController.m */,
+				E78FED2B1B2393CD003AA4EB /* Images.xcassets */,
+				E78FED2D1B2393CD003AA4EB /* MasterAppDelegate.h */,
+				E78FED2E1B2393CD003AA4EB /* MasterAppDelegate.m */,
+				E78FED2F1B2393CD003AA4EB /* MasterDetailViewController.h */,
+				E78FED301B2393CD003AA4EB /* MasterDetailViewController.m */,
+				E78FED311B2393CD003AA4EB /* MasterMasterViewController.h */,
+				E78FED321B2393CD003AA4EB /* MasterMasterViewController.m */,
+			);
+			path = NoteToSelf_cdilly;
+			sourceTree = "<group>";
+		};
+		E78FED401B239408003AA4EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E78FED201B2393CD003AA4EB /* NoteSvc.h */,
+				E78FED261B2393CD003AA4EB /* NoteSvcSQLite.m */,
+				E78FED251B2393CD003AA4EB /* NoteSvcSQLite.h */,
+				E78FED221B2393CD003AA4EB /* NoteSvcArchive.m */,
+				E78FED211B2393CD003AA4EB /* NoteSvcArchive.h */,
+				E78FED241B2393CD003AA4EB /* NoteSvcCache.m */,
+				E78FED231B2393CD003AA4EB /* NoteSvcCache.h */,
+				E78FED1D1B2393CD003AA4EB /* Note.m */,
+				E78FED1C1B2393CD003AA4EB /* Note.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E78FED411B239472003AA4EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E78FED551B239BE2003AA4EB /* InfoPlist.strings */,
+				E78FED491B23967D003AA4EB /* NoteToSelf_cdilly-Prefix.pch */,
+				E78FED471B23965D003AA4EB /* main.m */,
+				E78FED451B23962F003AA4EB /* NoteToSelf_cdilly-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E78FED431B239591003AA4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E78FED441B23959A003AA4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E78FEC8F1B238178003AA4EB /* NoteToSelf_cdilly_new */ = {
+		E78FED5C1B239FED003AA4EB /* NoteToSelfTests_cdilly */ = {
 			isa = PBXGroup;
 			children = (
-				E78FEC941B238178003AA4EB /* AppDelegate.h */,
-				E78FEC951B238178003AA4EB /* AppDelegate.m */,
-				E78FEC971B238178003AA4EB /* MasterViewController.h */,
-				E78FEC981B238178003AA4EB /* MasterViewController.m */,
-				E78FEC9A1B238178003AA4EB /* DetailViewController.h */,
-				E78FEC9B1B238178003AA4EB /* DetailViewController.m */,
-				E78FEC9D1B238178003AA4EB /* Main.storyboard */,
-				E78FECA01B238178003AA4EB /* Images.xcassets */,
-				E78FECA21B238178003AA4EB /* LaunchScreen.xib */,
-				E78FEC901B238178003AA4EB /* Supporting Files */,
+				E78FED5E1B23A086003AA4EB /* SQLiteTests.m */,
+				E78FED5F1B23A086003AA4EB /* NoteToSelf_cdillyTests.m */,
+				E78FED5D1B239FED003AA4EB /* SupportingFiles */,
 			);
-			path = NoteToSelf_cdilly_new;
+			path = NoteToSelfTests_cdilly;
 			sourceTree = "<group>";
 		};
-		E78FEC901B238178003AA4EB /* Supporting Files */ = {
+		E78FED5D1B239FED003AA4EB /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				E78FEC911B238178003AA4EB /* Info.plist */,
-				E78FEC921B238178003AA4EB /* main.m */,
+				E78FED621B23A145003AA4EB /* NoteToSelf_cdillyTests-Info.plist */,
+				E78FED611B23A102003AA4EB /* InfoPlist.strings */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E78FECAC1B238178003AA4EB /* NoteToSelf_cdilly_newTests */ = {
-			isa = PBXGroup;
-			children = (
-				E78FECAF1B238178003AA4EB /* NoteToSelf_cdilly_newTests.m */,
-				E78FECAD1B238178003AA4EB /* Supporting Files */,
-			);
-			path = NoteToSelf_cdilly_newTests;
-			sourceTree = "<group>";
-		};
-		E78FECAD1B238178003AA4EB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E78FECAE1B238178003AA4EB /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +193,7 @@
 			);
 			name = NoteToSelf_cdilly_new;
 			productName = NoteToSelf_cdilly_new;
-			productReference = E78FEC8D1B238178003AA4EB /* NoteToSelf_cdilly_new.app */;
+			productReference = E78FED661B23A8A0003AA4EB /* NoteToSelf_cdilly_new.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E78FECA81B238178003AA4EB /* NoteToSelf_cdilly_newTests */ = {
@@ -159,7 +211,7 @@
 			);
 			name = NoteToSelf_cdilly_newTests;
 			productName = NoteToSelf_cdilly_newTests;
-			productReference = E78FECA91B238178003AA4EB /* NoteToSelf_cdilly_newTests.xctest */;
+			productReference = E78FED671B23AA42003AA4EB /* NoteToSelfTests_cdilly.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +241,7 @@
 				Base,
 			);
 			mainGroup = E78FEC841B238178003AA4EB;
-			productRefGroup = E78FEC8E1B238178003AA4EB /* Products */;
+			productRefGroup = E78FEC841B238178003AA4EB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -204,9 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78FEC9F1B238178003AA4EB /* Main.storyboard in Resources */,
-				E78FECA41B238178003AA4EB /* LaunchScreen.xib in Resources */,
-				E78FECA11B238178003AA4EB /* Images.xcassets in Resources */,
+				E78FED591B239D10003AA4EB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +264,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78FED331B2393CD003AA4EB /* Main.storyboard in Resources */,
+				E78FED631B23A145003AA4EB /* NoteToSelf_cdillyTests-Info.plist in Resources */,
+				E78FED3B1B2393CD003AA4EB /* Images.xcassets in Resources */,
+				E78FED461B23962F003AA4EB /* NoteToSelf_cdilly-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78FEC961B238178003AA4EB /* AppDelegate.m in Sources */,
-				E78FEC991B238178003AA4EB /* MasterViewController.m in Sources */,
-				E78FEC931B238178003AA4EB /* main.m in Sources */,
-				E78FEC9C1B238178003AA4EB /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78FECB01B238178003AA4EB /* NoteToSelf_cdilly_newTests.m in Sources */,
+				E78FED691B23AFEC003AA4EB /* SQLiteTests.m in Sources */,
+				E78FED681B23AFE5003AA4EB /* NoteToSelf_cdillyTests.m in Sources */,
+				E78FED3F1B2393CD003AA4EB /* MasterMasterViewController.m in Sources */,
+				E78FED371B2393CD003AA4EB /* NoteSvcCache.m in Sources */,
+				E78FED361B2393CD003AA4EB /* NoteSvcArchive.m in Sources */,
+				E78FED391B2393CD003AA4EB /* NotesViewController.m in Sources */,
+				E78FED381B2393CD003AA4EB /* NoteSvcSQLite.m in Sources */,
+				E78FED341B2393CD003AA4EB /* Note.m in Sources */,
+				E78FED3D1B2393CD003AA4EB /* MasterAppDelegate.m in Sources */,
+				E78FED481B23965D003AA4EB /* main.m in Sources */,
+				E78FED3E1B2393CD003AA4EB /* MasterDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,20 +310,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E78FEC9D1B238178003AA4EB /* Main.storyboard */ = {
+		E78FED1A1B2393CD003AA4EB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E78FEC9E1B238178003AA4EB /* Base */,
+				E78FED1B1B2393CD003AA4EB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E78FECA21B238178003AA4EB /* LaunchScreen.xib */ = {
+		E78FED551B239BE2003AA4EB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E78FECA31B238178003AA4EB /* Base */,
+				E78FED561B239BE2003AA4EB /* en */,
 			);
-			name = LaunchScreen.xib;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -353,7 +413,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NoteToSelf_cdilly_new/Info.plist;
+				INFOPLIST_FILE = "NoteToSelf_cdilly/NoteToSelf_cdilly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -363,7 +424,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NoteToSelf_cdilly_new/Info.plist;
+				INFOPLIST_FILE = "NoteToSelf_cdilly/NoteToSelf_cdilly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -381,9 +443,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = NoteToSelf_cdilly_newTests/Info.plist;
+				INFOPLIST_FILE = NoteToSelfTests_cdilly/Info.plist;
+				LD_MAP_FILE_PATH = "build/NoteToSelf_cdilly_new.build/Debug-iphoneos/NoteToSelfTests_cdilly.build/NoteToSelfTests_cdilly-LinkMap--.txt";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NoteToSelfTests_cdilly;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteToSelf_cdilly_new.app/NoteToSelf_cdilly_new";
 			};
 			name = Debug;
@@ -396,9 +459,10 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = NoteToSelf_cdilly_newTests/Info.plist;
+				INFOPLIST_FILE = NoteToSelfTests_cdilly/Info.plist;
+				LD_MAP_FILE_PATH = "build/NoteToSelf_cdilly_new.build/Release-iphoneos/NoteToSelfTests_cdilly.build/NoteToSelfTests_cdilly-LinkMap--.txt";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NoteToSelfTests_cdilly;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteToSelf_cdilly_new.app/NoteToSelf_cdilly_new";
 			};
 			name = Release;
